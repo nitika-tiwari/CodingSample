@@ -1,0 +1,56 @@
+﻿/* slide 6 - add-consumptie page */
+.consumptie-form label,
+.consumptie-form .form-group input[type="checkbox"] + span  {
+    font-size: 0.75em;
+}
+.consumptie-form .form-group select {
+    width: calc(100% - 47px);
+}
+.consumptie-form .form-group select + .btn {
+    width: 40px;
+}
+.consumptie-form .form-group input[type="checkbox"],
+.modal-content  .form-group input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 10px;
+} 
+.modal-content .form-group .col-md-3 label {
+    font-size: 0.75em;
+    line-height: 1.1;
+}
+.modal-content .form-group input[type="checkbox"] + span {
+    font-size: 0.75em;
+}
+.modal-content .form-group div[class^="col-"] select {
+    width: 100%;
+}
+
+/* slide 8 - mon-historigue page */
+.currentmonth-history div[class^="col-"] > div,
+.previousmonth-history div[class^="col-"] > div {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 49%;
+}
+.currentmonth-history .currentmonth-overview{
+     background-color: #28a745;
+}
+.currentmonth-history .currentmonth-overview,
+.previousmonth-history .previousmonth-overview {
+    padding: 10px 15px;
+    line-height: 1.42;
+    margin:15px 0 50px;
+}
+.previousmonth-history .previousmonth-overview { 
+     background-color: #ea999b;
+} 
+
+.overview-date{
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	
+}
